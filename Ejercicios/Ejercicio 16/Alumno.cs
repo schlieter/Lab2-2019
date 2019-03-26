@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,11 +15,13 @@ namespace Ejercicio_16
         private byte nota2;
         private float notaFinal;
         public static string colegio = "UBA";
+        static Random rnd;
 
         public Alumno() { }
         static Alumno()
         {
             colegio = "UBABA";
+            rnd = new Random();
         }
         public Alumno(string nombre, string apellido, int legajo)
         {
@@ -33,8 +35,7 @@ namespace Ejercicio_16
             this.notaFinal = -1;
             if (this.nota1 >= 4 && this.nota2 >= 4)
             {
-                Random final = new Random();
-                this.notaFinal = final.Next(4, 10);
+                this.notaFinal = rnd.Next(4, 10);
             }
         }
         public void Estudiar(byte notaUno, byte notaDos)
@@ -46,13 +47,21 @@ namespace Ejercicio_16
         {
             if (this.notaFinal != -1)
             {
-                return this.nombre + " " + this.apellido + " " + this.notaFinal.ToString() + " " + colegio;
+                return this.nombre + " " + this.apellido + " " + this.notaFinal.ToString()+ " " + colegio;
             }
             else
             {
                 return "Alumno desaprobado";
             }
         }
+    /* CONDICION? VERDADERO:FALSE;
+     * .....colegio +" "+(this.notaFinal == -1 ? "DESAPROBADO":this.notaFinal.ToString());
+     *
+        public string Mostrar()
+        {
+            return this.nombre + " " + this.apellido + " " + (this.notaFinal == -1 ? "DESAPROBADO" : this.notaFinal.ToString()) + " " + colegio;
+        }
+     */
 
 
     }
