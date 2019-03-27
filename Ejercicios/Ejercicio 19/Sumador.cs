@@ -33,7 +33,7 @@ namespace Ejercicio_19
     }
     public static bool operator |(Sumador s1, Sumador s2)
     {
-      return s1.cantidadSumas == s2.cantidadSumas;
+      return (s1.cantidadSumas == s2.cantidadSumas);
     }
     public static explicit operator int(Sumador s)
     {

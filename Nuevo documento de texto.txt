@@ -16,3 +16,5 @@ git status
 git commit -m "commit"
 git status
 git push origin master
+
+git pull ---------> para actualizar la carpeta con lo nuevo del git
