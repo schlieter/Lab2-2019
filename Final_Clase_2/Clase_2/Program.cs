@@ -19,7 +19,6 @@ namespace Clase_2
             Console.Title = "Ejercicio Clase 2";
             int key;
             bool continuar = true;
-            string valor;
             do
             {
                 // Menú
@@ -49,9 +48,9 @@ namespace Clase_2
                         break;
                     case 2:
                         Console.WriteLine("Ingrese un valor Entero a convertir a Binario ASCII: ");
-                        int converso;
-                        if (int.TryParse(Console.ReadLine(), out converso))
-                            Console.WriteLine(Conversor.EnteroBinario(converso));
+                        int conversor;
+                        if (int.TryParse(Console.ReadLine(), out conversor))
+                            Console.WriteLine(Conversor.EnteroBinario(conversor));
                         else
                             Console.WriteLine("¡Valor inválido!");
                         Console.ReadKey();
