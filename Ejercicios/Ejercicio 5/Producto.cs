@@ -33,7 +33,7 @@ namespace Ejercicio_5
 
     public static bool operator ==(Producto p1, Producto p2)
     {
-      return (p1.marca == p2.marca && p1.codigoDeBarra == p2.codigoDeBarra);
+      return (!(p1 is null) && !(p2 is null) && p1.marca == p2.marca && p1.codigoDeBarra == p2.codigoDeBarra);
     }
     public static bool operator !=(Producto p1, Producto p2)
     {
