@@ -68,5 +68,13 @@ namespace Moneda
         {
             return !(e1 == e2);
         }
+
+    public static Euro operator +(Euro e, Pesos p)
+    {
+      double resultado;
+      resultado = ((Dolar)e).GetCantidad() + ((Dolar)p).GetCantidad();
+      return ((Euro)resultado).GetCantidad();
+    }
+
     }
 }
