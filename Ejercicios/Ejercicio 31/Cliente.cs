@@ -32,5 +32,9 @@ namespace Ejercicio_31
     {
       return !(c1 == c2);
     }
-  }
+        public override string ToString()
+        {
+            return this.nombre +" " + this.numero;
+        }
+    }
 }
