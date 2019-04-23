@@ -10,7 +10,7 @@ namespace Ejercicio_37
     {
         protected float costo;
 
-        public float CostoLlamada { get { } }
+        public float CostoLlamada { get { return this.CalcularCosto(); } }
 
         public Local(Llamada llamada, float costo):this(llamada.NroOrigen,llamada.Duracion,llamada.NroDestino,costo){}
 
@@ -18,7 +18,19 @@ namespace Ejercicio_37
         {
             this.costo = costo;
         }
-        
+
+        public override string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("Costo: " + this.CostoLlamada.ToString());
+            return sb.ToString();
+        }
+
+        private float CalcularCosto()
+        {
+            return (this.costo * base.Duracion);
+        }
 
     }
 }

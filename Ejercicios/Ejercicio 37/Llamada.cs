@@ -29,7 +29,7 @@ namespace Ejercicio_37
             this.nroDestino = nroDestino;
             this.nroOrigen = nroOrigen;
         }
-        public string Mostrar()
+        public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Destino: " + this.NroDestino);
@@ -38,9 +38,9 @@ namespace Ejercicio_37
             return sb.ToString();
         }
 
-        public int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
+        public static int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
         {
-            return llamada1.Duracion.CompareTo(llamada2.Duracion);
+            return string.Compare(llamada1.Duracion.ToString(),llamada2.Duracion.ToString());
         }
 
     }
