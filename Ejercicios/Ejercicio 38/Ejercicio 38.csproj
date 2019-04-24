@@ -4,15 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B01360A-5363-4834-B276-1B92DFD7FD79}</ProjectGuid>
+    <ProjectGuid>{0C003F0E-5A36-43DF-8CCB-C15E350A73B2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio_37</RootNamespace>
-    <AssemblyName>Ejercicio 37</AssemblyName>
+    <RootNamespace>Ejercicio_38</RootNamespace>
+    <AssemblyName>Ejercicio 38</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,12 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Centralita.cs" />
-    <Compile Include="Llamada.cs" />
-    <Compile Include="Local.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provincial.cs" />
+    <Compile Include="Sobreescrito.cs" />
+    <Compile Include="SobreSobreescrito.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
