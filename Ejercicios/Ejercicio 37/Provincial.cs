@@ -8,7 +8,7 @@ namespace Ejercicio_37
 {
   class Provincial : Llamada
   {
-    protected Franja frajaHoraria;
+    protected Franja franjaHoraria;
 
     public enum Franja
     {
@@ -27,13 +27,13 @@ namespace Ejercicio_37
     public Provincial(string origen, Franja miFranja, float duracion, string destino)
       :base(duracion, destino, origen)
     {
-        this.frajaHoraria = miFranja;
+        this.franjaHoraria = miFranja;
     }
 
     //public Provincial(Franja miFranja, Llamada llamada)
     //  : base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
     //{
-    //  this.frajaHoraria = miFranja;
+    //  this.franjaHoraria = miFranja;
     //}
 
     //public Provincial(string origen, Franja miFranja, float duracion, string destino)
@@ -48,7 +48,7 @@ namespace Ejercicio_37
     {
       StringBuilder sb = new StringBuilder();
       sb.AppendLine(base.Mostrar());
-      sb.AppendLine("Franja horaria: " + this.frajaHoraria.ToString());
+      sb.AppendLine("Franja horaria: " + this.franjaHoraria.ToString());
       sb.AppendLine("Costo: " + this.CostoLlamada.ToString());
       return sb.ToString();
     }
@@ -56,7 +56,7 @@ namespace Ejercicio_37
     private float CalcularCosto()
     {
       float costo = 0;
-      switch (this.frajaHoraria)
+      switch (this.franjaHoraria)
       {
         case Franja.Franja_1:
           costo = (base.Duracion * 0.99f);
