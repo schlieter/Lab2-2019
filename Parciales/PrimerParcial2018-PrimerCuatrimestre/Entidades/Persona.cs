@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Entidades
 {
@@ -22,9 +26,16 @@ namespace Entidades
             this._dni = dni;
         }
 
-        public string Mostrar()
+        public virtual string Mostrar()
         {
-
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Apellido: " + this.Apeliido);
+            sb.AppendLine("Nombre: " + this.Nombre);
+            sb.AppendLine("DNI: " + this.DNI.ToString());
+            sb.AppendLine("Edad: " + this.Edad.ToString());
+            return sb.ToString();
         }
+        public abstract bool ValidarAptitud();
+
     }
 }
