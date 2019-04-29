@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Entidades
 {
-    class Equipo
+    public class Equipo
     {
         const int cantidadMaximaJugadores = 6;
         private DirectorTecnico directorTecnico;
@@ -62,7 +62,7 @@ namespace Entidades
         }
         public static Equipo operator +(Equipo e, Jugador j)
         {
-            if(e != j && cantidadMaximaJugadores < 6 && j.ValidarAptitud())
+            if(e != j && e.jugadores.Count < cantidadMaximaJugadores && j.ValidarAptitud())
             {
                 e.jugadores.Add(j);
             }

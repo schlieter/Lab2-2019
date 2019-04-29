@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace Entidades
 
         public string Apeliido { get {return this._apellido; } }
         public string Nombre { get { return this._nombre; } }
-        public int Edad { get { return this._edad} }
+        public int Edad { get { return this._edad; } }
         public int DNI { get { return this._dni; } }
 
         public Persona(string nombre, string apellido, int edad, int dni)

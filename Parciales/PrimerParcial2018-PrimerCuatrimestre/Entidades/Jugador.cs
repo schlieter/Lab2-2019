@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -44,7 +44,7 @@ namespace Entidades
         }
         public override bool ValidarAptitud()
         {
-            if (this.Edad <= 40 && this.ValidarAptitud())
+            if (this.Edad <= 40 && this.ValidarEstadoFisico())
             {
                 return true;
             }
