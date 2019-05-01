@@ -177,6 +177,7 @@ namespace Ejercicio_40_WFA
             this.button13.TabIndex = 12;
             this.button13.Text = "Llamar";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.Button13_Click);
             // 
             // button14
             // 
@@ -196,6 +197,7 @@ namespace Ejercicio_40_WFA
             this.button15.TabIndex = 14;
             this.button15.Text = "Salir";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // txtDestino
             // 

@@ -13,7 +13,7 @@ namespace Ejercicio_40_WFA
 {
   public partial class frmCentralTelefonica : Form
   {
-    Centralita c;
+    public Centralita c;
     public frmCentralTelefonica()
     {
       c = new Centralita("UTN");
