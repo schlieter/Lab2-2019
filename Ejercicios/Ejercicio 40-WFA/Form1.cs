@@ -45,5 +45,10 @@ namespace Ejercicio_40_WFA
       frmLlamador frmLlamador = new frmLlamador(this.c);
       frmLlamador.ShowDialog();
     }
-  }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
 }

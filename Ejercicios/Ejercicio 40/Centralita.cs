@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_40
 {
-  public class Centralita
-  {
+    public class Centralita
+    {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
 
-        public float GananciasPorLocal { get {return this.CalcularGanancia(Llamada.TipoLlamada.Local); } }
+        public float GananciasPorLocal { get { return this.CalcularGanancia(Llamada.TipoLlamada.Local); } }
         public float GananciasPorProvincial { get { return this.CalcularGanancia(Llamada.TipoLlamada.Provincial); } }
         public float GananciasPorTotal { get { return this.CalcularGanancia(Llamada.TipoLlamada.Todas); } }
         public List<Llamada> Llamadas { get { return this.listaDeLlamadas; } }
@@ -20,7 +20,7 @@ namespace Ejercicio_40
         {
             this.listaDeLlamadas = new List<Llamada>();
         }
-        public Centralita(string nombreEmpresa):this()
+        public Centralita(string nombreEmpresa) : this()
         {
             this.razonSocial = nombreEmpresa;
         }
@@ -30,24 +30,25 @@ namespace Ejercicio_40
             float costo = 0;
             foreach (Llamada llamada in this.listaDeLlamadas)
             {
-                if (llamada is Local && tipo == Llamada.TipoLlamada.Local)
+                switch (tipo)
                 {
-                    costo += ((Local)llamada).CostoLlamada;
-                }
-                else if (llamada is Provincial && tipo == Llamada.TipoLlamada.Provincial)
-                {
-                    costo += ((Provincial)llamada).CostoLlamada;
-                }
-                else
-                {
-                    if (llamada is Provincial)
-                    {
-                        costo += ((Provincial)llamada).CostoLlamada;
-                    }
-                    else
-                    {
-                        costo += ((Local)llamada).CostoLlamada;
-                    }
+                    case Llamada.TipoLlamada.Local:
+                        if (llamada is Local)
+                        {
+                            costo += llamada.CostoLlamada;
+                        }
+                        break;
+                    case Llamada.TipoLlamada.Provincial:
+                        if (llamada is Provincial)
+                        {
+                            costo += llamada.CostoLlamada;
+                        }
+                        break;
+                    case Llamada.TipoLlamada.Todas:
+                        {
+                            costo += llamada.CostoLlamada;
+                        }
+                        break;
                 }
             }
             return costo;
@@ -81,9 +82,9 @@ namespace Ejercicio_40
 
         public static bool operator ==(Centralita c, Llamada llamada)
         {
-            foreach(Llamada l in c.Llamadas)
+            foreach (Llamada l in c.Llamadas)
             {
-                if(l == llamada)
+                if (l == llamada)
                 {
                     return true;
                 }
@@ -97,7 +98,7 @@ namespace Ejercicio_40
 
         public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
         {
-            if(c != nuevaLlamada)
+            if (c != nuevaLlamada)
             {
                 c.AgregarLlamada(nuevaLlamada);
             }

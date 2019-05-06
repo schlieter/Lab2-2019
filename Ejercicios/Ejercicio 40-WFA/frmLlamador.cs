@@ -144,7 +144,7 @@ namespace Ejercicio_40_WFA
         private void Button15_Click(object sender, EventArgs e)
         {
             MessageBox.Show(this.centralitaLlamador.GananciasPorLocal.ToString() +"\n" + this.centralitaLlamador.GananciasPorProvincial.ToString());
-            //NO MUESTRA LA SUMA DE TODAS  
+            this.Close();//NO MUESTRA LA SUMA DE TODAS  
         }
     }
 }
