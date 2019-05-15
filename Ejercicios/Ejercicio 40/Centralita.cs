@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ejercicio_41;
 
 namespace Ejercicio_40
 {
@@ -102,6 +103,11 @@ namespace Ejercicio_40
             {
                 c.AgregarLlamada(nuevaLlamada);
             }
+            else
+            {
+                throw new CentralitaException("La llamada ya se encuentra registrada", "Centralita", "AgregarLlamada(+)");
+            }
+            
             return c;
         }
 

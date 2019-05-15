@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ejercicio_40;
+using Ejercicio_41;
 
 namespace Ejercicio_40_WFA
 {
@@ -128,7 +129,8 @@ namespace Ejercicio_40_WFA
             if (this.txtDestino.Text[0].ToString() == "#")
             {
                 Provincial p = new Provincial("UTN", franjas, duracion.Next(1, 50), destino);
-                this.centralitaLlamador += p;
+                try { this.centralitaLlamador += p; }
+                catch(CentralitaException c) { MessageBox.Show(c.Message); }
                 
                 MessageBox.Show("Llamada provincial realizada " + p.CostoLlamada);
             }
@@ -143,8 +145,11 @@ namespace Ejercicio_40_WFA
 
         private void Button15_Click(object sender, EventArgs e)
         {
+
+            this.centralitaLlamador.GananciasPorLocal.ToString();
+            string j = this.centralitaLlamador.GananciasPorProvincial.ToString();
             MessageBox.Show(this.centralitaLlamador.GananciasPorLocal.ToString() +"\n" + this.centralitaLlamador.GananciasPorProvincial.ToString());
-            this.Close();//NO MUESTRA LA SUMA DE TODAS  
+            //this.Close();//NO MUESTRA LA SUMA DE TODAS  
         }
     }
 }

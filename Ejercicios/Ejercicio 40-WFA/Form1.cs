@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ejercicio_40;
+using Ejercicio_41;
 
 namespace Ejercicio_40_WFA
 {
