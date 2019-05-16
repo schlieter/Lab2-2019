@@ -1,0 +1,11 @@
+D:\Federico\VB .Net\Visual C#\utn\Test\Test\bin\Debug\Test.dll
+D:\Federico\VB .Net\Visual C#\utn\Test\Test\bin\Debug\Test.pdb
+D:\Federico\VB .Net\Visual C#\utn\Test\Test\obj\Debug\Facultad.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\Test\Test\obj\Debug\Test.dll
+D:\Federico\VB .Net\Visual C#\utn\Test\Test\obj\Debug\Test.pdb
+C:\Users\cschl\Desktop\TestOK\Test\bin\Debug\Test.dll
+C:\Users\cschl\Desktop\TestOK\Test\bin\Debug\Test.pdb
+C:\Users\cschl\Desktop\TestOK\Test\obj\Debug\Facultad.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\TestOK\Test\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\TestOK\Test\obj\Debug\Test.dll
+C:\Users\cschl\Desktop\TestOK\Test\obj\Debug\Test.pdb
