@@ -1,7 +1,6 @@
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\bin\Debug\netstandard2.0\Ejercicio 41.deps.json
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\bin\Debug\netstandard2.0\Ejercicio 41.dll
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\bin\Debug\netstandard2.0\Ejercicio 41.pdb
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\obj\Debug\netstandard2.0\Ejercicio 41.csprojAssemblyReference.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\obj\Debug\netstandard2.0\Ejercicio 41.csproj.CoreCompileInputs.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\obj\Debug\netstandard2.0\Ejercicio 41.AssemblyInfoInputs.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 41\obj\Debug\netstandard2.0\Ejercicio 41.AssemblyInfo.cs

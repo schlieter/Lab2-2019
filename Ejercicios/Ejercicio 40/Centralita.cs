@@ -99,14 +99,16 @@ namespace Ejercicio_40
 
         public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
         {
-            if (c != nuevaLlamada)
-            {
-                c.AgregarLlamada(nuevaLlamada);
-            }
-            else
-            {
-                throw new CentralitaException("La llamada ya se encuentra registrada", "Centralita", "AgregarLlamada(+)");
-            }
+            
+                if (c != nuevaLlamada)
+                {
+                    c.AgregarLlamada(nuevaLlamada);
+                }
+                else
+                {
+                    throw new CentralitaException("La llamada ya se encuentra registrada", "Centralita", "AgregarLlamada(+)");
+                }
+
             
             return c;
         }
