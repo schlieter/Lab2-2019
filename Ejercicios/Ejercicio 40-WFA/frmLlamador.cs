@@ -151,7 +151,7 @@ namespace Ejercicio_40_WFA
       this.centralitaLlamador.GananciasPorLocal.ToString();
       string j = this.centralitaLlamador.GananciasPorProvincial.ToString();
       MessageBox.Show(this.centralitaLlamador.GananciasPorLocal.ToString() + "\n" + this.centralitaLlamador.GananciasPorProvincial.ToString());
-      //this.Close();//NO MUESTRA LA SUMA DE TODAS  
+      this.Close();  
     }
   }
 }
