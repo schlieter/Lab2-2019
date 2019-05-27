@@ -43,7 +43,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 47 Prueba", "Ejer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 48", "Ejercicio 48\Ejercicio 48.csproj", "{4C8E7107-9761-421B-8073-8AF8B5C4C2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 50", "Ejercicio 50\Ejercicio 50.csproj", "{24E14294-AB72-4E7D-BBF1-EA5C451F7835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio 50", "Ejercicio 50\Ejercicio 50.csproj", "{24E14294-AB72-4E7D-BBF1-EA5C451F7835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 19-Serializacion", "Clase 19-Serializacion\Clase 19-Serializacion.csproj", "{BF985ED7-C48C-45D4-84EB-399252EA8205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{24E14294-AB72-4E7D-BBF1-EA5C451F7835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24E14294-AB72-4E7D-BBF1-EA5C451F7835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24E14294-AB72-4E7D-BBF1-EA5C451F7835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF985ED7-C48C-45D4-84EB-399252EA8205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF985ED7-C48C-45D4-84EB-399252EA8205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF985ED7-C48C-45D4-84EB-399252EA8205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF985ED7-C48C-45D4-84EB-399252EA8205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

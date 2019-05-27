@@ -1,0 +1,18 @@
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+D:\VisualStudio\20190507 - Schlieter.Cristian\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20190507 - Schlieter.Cristian\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

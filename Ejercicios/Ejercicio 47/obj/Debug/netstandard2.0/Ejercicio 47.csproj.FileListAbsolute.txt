@@ -7,3 +7,12 @@ C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstand
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.AssemblyInfo.cs
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.dll
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\bin\Debug\netstandard2.0\Ejercicio 47.deps.json
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\bin\Debug\netstandard2.0\Ejercicio 47.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\bin\Debug\netstandard2.0\Ejercicio 47.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.dll
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 47\obj\Debug\netstandard2.0\Ejercicio 47.pdb
