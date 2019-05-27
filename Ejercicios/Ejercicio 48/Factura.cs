@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Ejercicio_48
 {
-    class Factura
+    class Factura: Documento
     {
+        public Factura(int numero)
+            :base(numero)
+        {
+
+        }
     }
 }

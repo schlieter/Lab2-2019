@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Ejercicio_48
 {
-    class Documento
+    public class Documento
     {
+        protected int numero;
+
+        public Documento(int numero)
+        {
+            this.numero = numero;
+        }
     }
 }
