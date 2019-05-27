@@ -8,7 +8,6 @@ E:\Schlieter\Ejercicios\Ejercicio 16\obj\Debug\Ejercicio 16.pdb
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\bin\Debug\Ejercicio 16.exe.config
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\bin\Debug\Ejercicio 16.exe
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\bin\Debug\Ejercicio 16.pdb
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\obj\Debug\Ejercicio 16.csprojAssemblyReference.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\obj\Debug\Ejercicio 16.csproj.CoreCompileInputs.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\obj\Debug\Ejercicio 16.exe
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 16\obj\Debug\Ejercicio 16.pdb

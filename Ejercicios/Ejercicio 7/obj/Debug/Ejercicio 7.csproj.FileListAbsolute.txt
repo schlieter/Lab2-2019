@@ -5,3 +5,10 @@ C:\Users\cschl\Desktop\Schlieter\Ejercicios\Ejercicio 7\bin\Debug\Ejercicio 7.ex
 C:\Users\cschl\Desktop\Schlieter\Ejercicios\Ejercicio 7\bin\Debug\Ejercicio 7.pdb
 C:\Users\cschl\Desktop\Schlieter\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.exe
 C:\Users\cschl\Desktop\Schlieter\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\bin\Debug\Ejercicio 7.exe.config
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\bin\Debug\Ejercicio 7.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\bin\Debug\Ejercicio 7.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 7\obj\Debug\Ejercicio 7.pdb

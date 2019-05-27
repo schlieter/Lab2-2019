@@ -1,0 +1,7 @@
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\obj\Debug\Ejercicio 5.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 5\obj\Debug\Ejercicio 5.pdb

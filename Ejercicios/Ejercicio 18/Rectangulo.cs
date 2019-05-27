@@ -20,7 +20,7 @@ namespace Geometria
 
         public Rectangulo(Punto v1, Punto v3)
         {
-            Math.Abs()
+            Math.Abs();
         }
 
         public float Area { get { return this.CalcularArea(); } }
