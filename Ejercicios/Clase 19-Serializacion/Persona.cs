@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Clase_19_Serializacion
 {
+  [Serializable]
+  //EN CASO DE QUE PERSONA HEREDE DE OTRA CLASE HAY QUE AGREGAR OTRA ETIQUETA
   public class Persona
   {
     public string nombre;
