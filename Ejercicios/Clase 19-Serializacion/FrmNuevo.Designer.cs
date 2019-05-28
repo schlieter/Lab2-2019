@@ -36,6 +36,8 @@ namespace Clase_19_Serializacion
             this.txtBoxDNI = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblNumeroTarjeta = new System.Windows.Forms.Label();
+            this.txtBoxNumeroTarjeta = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -106,11 +108,29 @@ namespace Clase_19_Serializacion
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // lblNumeroTarjeta
+            // 
+            this.lblNumeroTarjeta.AutoSize = true;
+            this.lblNumeroTarjeta.Location = new System.Drawing.Point(39, 177);
+            this.lblNumeroTarjeta.Name = "lblNumeroTarjeta";
+            this.lblNumeroTarjeta.Size = new System.Drawing.Size(55, 13);
+            this.lblNumeroTarjeta.TabIndex = 8;
+            this.lblNumeroTarjeta.Text = "Nº Tarjeta";
+            // 
+            // txtBoxNumeroTarjeta
+            // 
+            this.txtBoxNumeroTarjeta.Location = new System.Drawing.Point(158, 177);
+            this.txtBoxNumeroTarjeta.Name = "txtBoxNumeroTarjeta";
+            this.txtBoxNumeroTarjeta.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxNumeroTarjeta.TabIndex = 9;
+            // 
             // FrmNuevo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(342, 307);
+            this.Controls.Add(this.txtBoxNumeroTarjeta);
+            this.Controls.Add(this.lblNumeroTarjeta);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtBoxDNI);
@@ -136,5 +156,7 @@ namespace Clase_19_Serializacion
     private System.Windows.Forms.TextBox txtBoxDNI;
     private System.Windows.Forms.Button btnAceptar;
     private System.Windows.Forms.Button btnCancelar;
+    private System.Windows.Forms.Label lblNumeroTarjeta;
+    private System.Windows.Forms.TextBox txtBoxNumeroTarjeta;
   }
 }

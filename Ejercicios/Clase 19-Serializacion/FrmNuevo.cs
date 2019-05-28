@@ -20,9 +20,9 @@ namespace Clase_19_Serializacion
 
     private void btnAceptar_Click(object sender, EventArgs e)
     {
-      if (txtBoxNombre.Text != "" && txtBoxApellido.Text != "" && txtBoxDNI.Text != "")
+      if (txtBoxNombre.Text != "" && txtBoxApellido.Text != "" && txtBoxDNI.Text != "" && txtBoxNumeroTarjeta.Text != "")
       {
-        persona = new Persona(txtBoxNombre.Text, txtBoxApellido.Text, int.Parse(txtBoxDNI.Text));
+        persona = new Persona(txtBoxNombre.Text, txtBoxApellido.Text, int.Parse(txtBoxDNI.Text), int.Parse(txtBoxNumeroTarjeta.Text));
         this.DialogResult = DialogResult.OK;
       }
       else

@@ -8,3 +8,4 @@ C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacio
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\obj\Debug\Clase 19-Serializacion.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\obj\Debug\Clase 19-Serializacion.exe
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\obj\Debug\Clase 19-Serializacion.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\obj\Debug\Clase 19-Serializacion.csprojAssemblyReference.cache

@@ -7,16 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace Clase_19_Serializacion
 {
   public partial class FrmEjemploSerializacion : Form
   {
     public List<Persona> personas;
+    
     public FrmEjemploSerializacion()
     {
       InitializeComponent();
       personas = new List<Persona>();
+      this.Cargar();
+      this.Refrescar();
 
     }
 
@@ -32,11 +37,32 @@ namespace Clase_19_Serializacion
     private void btnRefrescar_Click(object sender, EventArgs e)
     {
       listView1.Clear();
-      foreach(Persona p in personas)
+      this.Refrescar();
+    }
+
+    private void btnGuardar_Click(object sender, EventArgs e)
+    {
+      //XmlTextWriter writer = new XmlTextWriter(@"Clase_19_Serializacion.xml",Encoding.UTF8);    DE ESTA MANERA LO GUARDA EN ----> C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\bin\Debug
+      XmlTextWriter writer = new XmlTextWriter(@"C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\Serializacion.xml", Encoding.UTF8);
+      XmlSerializer serializer = new XmlSerializer(typeof(List<Persona>));
+
+      serializer.Serialize(writer, personas);
+      
+      writer.Close();
+    }
+    private void Refrescar()
+    {
+      foreach (Persona p in personas)
       {
         listView1.Items.Add(p.ToString());
       }
-
+    }
+    private void Cargar()
+    {
+      XmlTextReader reader = new XmlTextReader(@"C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Clase 19-Serializacion\Serializacion.xml");
+      XmlSerializer serializer = new XmlSerializer(typeof(List<Persona>));
+      personas = (List<Persona>)serializer.Deserialize(reader);
+      reader.Close();
     }
   }
 }
