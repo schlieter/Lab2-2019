@@ -1,9 +1,0 @@
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\bin\Debug\netstandard2.0\Ejercicio 48.deps.json
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\bin\Debug\netstandard2.0\Ejercicio 48.dll
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\bin\Debug\netstandard2.0\Ejercicio 48.pdb
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.csprojAssemblyReference.cache
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.csproj.CoreCompileInputs.cache
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.AssemblyInfoInputs.cache
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.AssemblyInfo.cs
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.dll
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 48\obj\Debug\netstandard2.0\Ejercicio 48.pdb

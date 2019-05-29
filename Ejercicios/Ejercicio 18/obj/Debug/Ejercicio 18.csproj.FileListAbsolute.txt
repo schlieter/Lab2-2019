@@ -1,2 +1,0 @@
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 18\obj\Debug\Ejercicio 18.csprojAssemblyReference.cache
-C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.CoreCompileInputs.cache
