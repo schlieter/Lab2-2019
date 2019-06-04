@@ -1,0 +1,13 @@
+--select nombre from Provincias
+--select * from Provincias
+--insert into Provincias (nombre) values ('MIPROVINCIA'),('ASD')
+--select * from Provincias where id = 25
+--delete from provincias where id = 26
+--update provincias set nombre = 'TIERRA DE NADIE' where id = 25
+--select * from localidades where nombre like'%a'  PARA QUE EN "A" LA PALABRA BUSCADA 
+--select * from localidades where nombre like'a%'  PARA QUE EMPIECE CON "A" LA PALABRA BUSCADA
+--select * from localidades where nombre like'%a%' PARA QUE CONTENGA UNA "A"
+--select * from localidades where nombre like'_a%'   EL GUION BAJO EQUIVALE A CUANTAS LETRAS ADELANTE DE LA ESPECIFICADA
+--select l.nombre AS nombre_localidad , p.nombre as nombre_provincia from localidades l, provincias p where l.provinciaid = p.id
+--select * from localidades l, provincias p where p.nombre = 'CATAMARCA' AND l.ProvinciaId = p.id
+select * from localidades l join provincias p on l.ProvinciaId = p.id where p.nombre = 'CATAMARCA'

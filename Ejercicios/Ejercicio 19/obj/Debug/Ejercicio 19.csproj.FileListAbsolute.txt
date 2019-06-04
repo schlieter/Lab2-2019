@@ -5,3 +5,9 @@ C:\Users\cschl\Desktop\C#\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 
 C:\Users\cschl\Desktop\C#\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.csproj.CoreCompileInputs.cache
 C:\Users\cschl\Desktop\C#\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.exe
 C:\Users\cschl\Desktop\C#\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\bin\Debug\Ejercicio 19.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\bin\Debug\Ejercicio 19.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\bin\Debug\Ejercicio 19.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 19\obj\Debug\Ejercicio 19.pdb

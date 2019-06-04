@@ -5,3 +5,10 @@ C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercici
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.csproj.CoreCompileInputs.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.exe
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\bin\Debug\Ejercicio 51.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\bin\Debug\Ejercicio 51.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\bin\Debug\Ejercicio 51.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 51\obj\Debug\Ejercicio 51.pdb

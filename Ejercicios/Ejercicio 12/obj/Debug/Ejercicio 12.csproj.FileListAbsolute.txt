@@ -12,3 +12,9 @@ E:\Schlieter\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.csprojAssemblyRefere
 E:\Schlieter\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.csproj.CoreCompileInputs.cache
 E:\Schlieter\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.exe
 E:\Schlieter\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\bin\Debug\Ejercicio 12.exe.config
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\bin\Debug\Ejercicio 12.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\bin\Debug\Ejercicio 12.pdb
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.exe
+C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 12\obj\Debug\Ejercicio 12.pdb
