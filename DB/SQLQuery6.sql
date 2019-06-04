@@ -10,4 +10,5 @@
 --select * from localidades where nombre like'_a%'   EL GUION BAJO EQUIVALE A CUANTAS LETRAS ADELANTE DE LA ESPECIFICADA
 --select l.nombre AS nombre_localidad , p.nombre as nombre_provincia from localidades l, provincias p where l.provinciaid = p.id
 --select * from localidades l, provincias p where p.nombre = 'CATAMARCA' AND l.ProvinciaId = p.id
-select * from localidades l join provincias p on l.ProvinciaId = p.id where p.nombre = 'CATAMARCA'
+--select * from localidades l join provincias p on l.ProvinciaId = p.id where p.nombre = 'CATAMARCA'
+select * from provincias
