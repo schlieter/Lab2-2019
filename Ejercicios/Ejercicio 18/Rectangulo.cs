@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace Geometria
 {
     class Rectangulo
     {
-        private float area;
+        /*private float area;
         private float perimetro;
         private Punto vertice1;
         private Punto vertice2;
@@ -52,6 +52,6 @@ namespace Geometria
                 return this.perimetro;
             }
         }
-
+        */
     }
 }
