@@ -8,3 +8,13 @@ C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debu
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.exe
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\bin\Debug\Ejercicio 63.exe.config
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\bin\Debug\Ejercicio 63.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\bin\Debug\Ejercicio 63.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio_63.Form1.resources
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio_63.Properties.Resources.resources
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csproj.GenerateResource.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.exe
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.pdb

@@ -7,25 +7,25 @@ using System.Threading;
 
 namespace Ejercicio_64
 {
-  class Caja
-  {
-    private List<string> filaClientes;
-
-    public Caja()
+    class Caja
     {
-      this.filaClientes = new List<string>();
+        private List<string> filaClientes;
+
+        public Caja()
+        {
+            this.filaClientes = new List<string>();
+        }
+
+        public List<string> FilaClientes { get { return this.filaClientes; } }
+
+        public void AtenderClientes()
+        {
+            foreach (string cliente in this.FilaClientes)
+            {
+                Console.WriteLine("Cliente: " + cliente + " Caja: " + Thread.CurrentThread.Name);
+                Thread.Sleep(2000);
+            }
+        }
+
     }
-
-    public List<string> FilaClientes { get { return this.filaClientes; } }
-
-    public void AtenderClientes()
-    {
-      
-      foreach (string cliente in this.filaClientes)
-      {
-        Console.WriteLine("Cliente: " + cliente + "Caja: " + Thread.CurrentThread.Name);
-      } 
-    }
-
-  }
 }
