@@ -14,6 +14,7 @@ namespace Ejercicio_63
   public partial class Form1 : Form
   {
     Thread horaActualizada;
+
     public Form1()
     {
       InitializeComponent();
