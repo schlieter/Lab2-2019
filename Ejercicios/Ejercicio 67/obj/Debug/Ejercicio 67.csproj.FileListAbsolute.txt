@@ -1,0 +1,6 @@
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\bin\Debug\Ejercicio 67.dll
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\bin\Debug\Ejercicio 67.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\obj\Debug\Ejercicio 67.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\obj\Debug\Ejercicio 67.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\obj\Debug\Ejercicio 67.dll
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 67\obj\Debug\Ejercicio 67.pdb

@@ -18,3 +18,6 @@ C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercici
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csproj.CoreCompileInputs.cache
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.exe
 C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\bin\Debug\Ejercicio 67.dll
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\bin\Debug\Ejercicio 67.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Ejercicios\Ejercicio 63\obj\Debug\Ejercicio 63.csproj.CopyComplete

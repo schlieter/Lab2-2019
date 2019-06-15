@@ -8,30 +8,41 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using Ejercicio_67;
 
 namespace Ejercicio_63
 {
     public partial class Form1 : Form
     {
         Thread horaActualizada;
+        Temporizador temporizador;
 
         public Form1()
         {
             InitializeComponent();
+            temporizador = new Temporizador();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.label2.Text = DateTime.Now.ToString();
             //this.HoraFija();
-            this.HiloHoraActualizada();
+            //this.HiloHoraActualizada();
+
+            temporizador.Intervalo = 1000;
+            temporizador.Activo = true;
+            temporizador.EventoTiempo += this.HiloHoraActualizada;
         }
+
         private void HoraFija()
         {
             int i = 0;
             while (true)
             {
                 this.lblHoraFija.Text = DateTime.Now.ToString();
-                Thread.Sleep(50);
+                
+                Thread.Sleep(500);
+
                 if (i == 10)
                 {
                     break;

@@ -40,7 +40,7 @@ namespace Ejercicio_64
             hiloCaja2.Start();
 
             Console.ReadLine();
-
+            
         }
   }
 }
