@@ -29,9 +29,11 @@ namespace Ejercicio_63
             //this.HoraFija();
             //this.HiloHoraActualizada();
 
-            temporizador.Intervalo = 1000;
+            temporizador.Intervalo = 500;
             temporizador.Activo = true;
-            temporizador.EventoTiempo += this.HiloHoraActualizada;
+            //temporizador.EventoTiempo += this.HiloHoraActualizada;
+            temporizador.EventoTiempo += this.HoraActualizada;
+
         }
 
         private void HoraFija()
@@ -68,6 +70,10 @@ namespace Ejercicio_63
                 Thread.Sleep(500);
             }
         }
+        /*private void HoraActualizada2()
+        {
+
+        }*/
         private void HiloHoraActualizada()
         {
             horaActualizada = new Thread(this.HoraActualizada);

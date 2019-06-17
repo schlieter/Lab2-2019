@@ -24,7 +24,7 @@ namespace Ejercicio_67
                 this.intervalo = value;
             }
         }
-        public bool Activo
+       /* public bool Activo
         {
             get
             {
@@ -48,8 +48,36 @@ namespace Ejercicio_67
         {
             EventoTiempo.Invoke();
             Thread.Sleep(this.Intervalo);
-        }
+            
+        }*/
         public event encargadoTiempo EventoTiempo;
-        
+
+
+        public bool Activo
+        {
+            get
+            {
+                return this.hilo.IsAlive;
+            }
+            set
+            {
+                this.hilo = new Thread(new ParameterizedThreadStart(Corriendo));
+                if (value == true && this.hilo.IsAlive == false)
+                {
+                    this.hilo.Start(this.Intervalo);
+                }
+                else if (value == false && this.hilo.IsAlive == true)
+                {
+                    this.hilo.Abort();
+                }
+            }
+        }
+
+        private void Corriendo(object intervalo)
+        {
+            EventoTiempo.Invoke();
+            Thread.Sleep((int)intervalo);
+
+        }
     }
 }
