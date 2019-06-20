@@ -21,10 +21,6 @@ namespace Clase21DB
       
     }
 
-    private void cmbProvincias_SelectedIndexChanged(object sender, EventArgs e)
-    {
-      
-    }
     private void CargarProvincias()
     {
       SqlConnection miConexion = new SqlConnection(Properties.Settings.Default.SQLEjemplo);
@@ -54,5 +50,6 @@ namespace Clase21DB
     {
       this.CargarProvincias();
     }
+
   }
 }

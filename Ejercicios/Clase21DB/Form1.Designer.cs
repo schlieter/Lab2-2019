@@ -1,4 +1,4 @@
-﻿namespace Clase21DB
+namespace Clase21DB
 {
   partial class Form1
   {
@@ -42,7 +42,6 @@
             this.cmbProvincias.Name = "cmbProvincias";
             this.cmbProvincias.Size = new System.Drawing.Size(121, 21);
             this.cmbProvincias.TabIndex = 0;
-            this.cmbProvincias.SelectedIndexChanged += new System.EventHandler(this.cmbProvincias_SelectedIndexChanged);
             // 
             // lblLocalidad
             // 

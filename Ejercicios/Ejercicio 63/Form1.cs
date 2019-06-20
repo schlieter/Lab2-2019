@@ -29,10 +29,10 @@ namespace Ejercicio_63
             //this.HoraFija();
             //this.HiloHoraActualizada();
 
+            temporizador.EventoTiempo += this.HoraActualizada;
             temporizador.Intervalo = 500;
             temporizador.Activo = true;
             //temporizador.EventoTiempo += this.HiloHoraActualizada;
-            temporizador.EventoTiempo += this.HoraActualizada;
 
         }
 
