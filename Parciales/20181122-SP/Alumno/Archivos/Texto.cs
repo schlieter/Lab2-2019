@@ -9,26 +9,28 @@ using Entidades;
 
 namespace Archivos
 {
-  public class Texto
-  {
-    public void Guardar(string archivo, Queue<Patente> datos)
+    public class Texto
     {
-      using (StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+ \+ archivo))
-      {
-        foreach(Patente p in datos)
+        public void Guardar(string archivo, Queue<Patente> datos)
         {
-          sw.WriteLine(p.CodigoPatente.ToString());
+            using (StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)))
+            {
+                foreach (Patente p in datos)
+                {
+                    sw.WriteLine(p.CodigoPatente.ToString());
+                }
+            }
         }
-      } 
+        public void Leer(string archivo, out Queue<Patente> datos)
+        {
+            datos = new Queue<Patente>();
+            using (StreamReader sr = new StreamReader(@"C:\Users\alumno\Desktop\" + archivo))
+            {
+                while (!sr.EndOfStream)
+                {
+                    datos.Enqueue(PatenteStringExtension.ValidarPatente(sr.ReadLine()));//UNA VEZ QUE TENGAMOS LOS METODOS DE EXTENSION SE ENCARGARAN DE DEVOLVER EL TIPO
+                }
+            }
+        }
     }
-    public void Leer(string archivo, out Queue<Patente> datos)
-    {
-      StreamReader sr = new StreamReader(@"C:\Users\alumno\Desktop\" + archivo);
-      while (!sr.EndOfStream)
-      {
-        datos.Enqueue(sr.ReadLine)//UNA VEZ QUE TENGAMOS LOS METODOS DE EXTENSION SE ENCARGARAN DE DEVOLVER EL TIPO
-      } 
-      
-    }
-  }
 }

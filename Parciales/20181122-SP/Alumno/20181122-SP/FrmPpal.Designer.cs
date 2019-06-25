@@ -96,7 +96,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
-            this.Load += new System.EventHandler(this.FrmPpal_Load);
             this.ResumeLayout(false);
 
         }

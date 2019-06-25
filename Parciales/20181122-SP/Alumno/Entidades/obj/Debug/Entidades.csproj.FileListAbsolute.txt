@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20181122-SP\Alumno\Ent
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\Nueva carpeta\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\cschl\Desktop\Lab2\Lab2-2019\Parciales\20181122-SP\Alumno\Entidades\bin\Debug\Entidades.pdb
